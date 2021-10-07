@@ -1,10 +1,10 @@
-# DATS6103-project3
-## This is a data mining project about world tourism analysis.
+# Big Data Analysis Project
 
-The international travel & tourism sector is growring at a fast pace. The World Travel and Tourism Council (WTTC) report found that the travel & tourism industry generated 10.4 percent of all global economic growth. Tourism is not only a kind of leisure, it is also essential in a country's economy. In this analysis, I investigate the dynamic trend of evolvement in tourism sector and find the top tourist-sending countries and the countries that are most attractive to international tourists.
+Tourism is witnessing huge global growth every year and it is forecast to grow far into the future. It is definitely an industry of the future. Growth means that more and more skilled workers are needed all over the world. By studying tourism you give yourself the skills and knowledge to be a part of this growth.
 
 ### Language
-python
+python3
+
 #### packages
  pandas<br> 
  numpy<br>
@@ -24,5 +24,5 @@ https://chenchends.github.io/Tourism-data-analysis/
 <li>Need plotly account to run the code</li>
 <li>Recommend use google chrome</li>
 
-### Author: Chen Chen
+### Author: Rutuparna Kudtarkar
 
