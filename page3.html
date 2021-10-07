@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet1.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" href="#" style="margin-left: 15px;">Tourism Data Analysis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="page1.html">Home</span></a>
+                <a class="nav-item nav-link" href="page2.html">Inbound analysis</a>
+                <a class="nav-item nav-link active" href="page3.html">GDP<span class="sr-only"></span></a>
+                <a class="nav-item nav-link" href="page4.html">About</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h3>Correlation between GDP and inbound tourists(number of people)</h3>
+                    <embed width="100%" height="620px" scrolling="no" src="image/gdp_inbound_plot.html" align="center">
+                    <h4>There is positive correlation between the GDP and the number of <span style="color:red;">inbound</span> tourists people, which indicates that the develpment in tourist industry will benefit the country's GDP.</h4>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h3>Correlation between GDP and outbound tourists(number of people)</h3>
+                    <embed width="100%" height="620px" scrolling="no" src="image/gdp_outbound_plot.html" align="center">
+                    <h4>There is positive correlation between the GDP and the number of <span style="color:red;">outbound</span> tourists people, which indicates that more people choose to travel aboard as economy grows. </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
