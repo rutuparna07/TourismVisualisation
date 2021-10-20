@@ -17,7 +17,7 @@ python3
  html<br>
 
 ### Visualization link: 
-https://chenchends.github.io/Tourism-data-analysis/
+https://rutuparna07.github.io/TourismVisualisation/
 
 ### Instruction
 <li>Put the excel and python code in the same folder</li>
